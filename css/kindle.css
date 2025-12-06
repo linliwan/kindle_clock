@@ -1,0 +1,142 @@
+@font-face {
+  font-family: PingFang;
+  src: url("./PingFangMin.ttf");
+}
+
+@font-face {
+  font-family: PuHuiTi;
+  src: url("./PuHuiTiMin.ttf");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: PuHuiTi;
+}
+
+a {
+  color: #000000;
+  background: #ffffff;
+}
+
+.night a {
+  color: #ffffff;
+  background: #000000;
+}
+
+html.night {
+  color: #ffffff;
+  background: #000000;
+}
+
+#cleaner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+#page {
+  width: 100%;
+  height: 100%;
+}
+
+#dateAndCity,
+#weatherInfo {
+  padding: 0 2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+#city,
+#date {
+  font-size: 7rem;
+  text-decoration: none;
+}
+
+#icon,
+#temp {
+  font-size: 9rem;
+}
+
+#lastUpdate {
+  font-size: 28rem;
+  line-height: 28rem;
+  text-align: center;
+}
+
+.forecast {
+  padding: 1rem 2rem;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+
+.night .forecast {
+  border-color: #ffffff;
+}
+
+.col {
+  -webkit-box-flex: 1;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.night .col {
+  border-color: #ffffff;
+}
+
+.col:last-child {
+  border-right: none;
+}
+
+.forecastIconWrapper {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.colTemp {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.colTime {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.colDesc {
+  font-size: 5rem;
+  position: relative;
+}
+
+#sun {
+  padding: 2.5rem 0;
+  width: 100%;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.feelsLike,
+.feelsLike * {
+  text-decoration: underline;
+}
+
+.portrait .col:nth-last-child(2) {
+  border-right: none;
+}
+
+.portrait .col5 {
+  display: none;
+}
+
+#page.landscape {
+  width: 95%;
+}
