@@ -5,7 +5,7 @@ Kindle 中文台历系统
 
 注：参考原作：https://github.com/0111/Kindle_WeatherCN
 
-手里是一台 7 代的 Kindle，在显示参考作品时页面有些超出屏幕范围，因此手动改造了一版。
+手里是一台 7 代的 Kindle，在显示原作时页面有些超出屏幕范围，因此手动改造了一版。
 
 相对原作主要改动如下：
 
@@ -27,9 +27,13 @@ Kindle 中文台历系统
 - https://bookfere.com/post/311.html
 - https://bookfere.com/post/477.html
 
-## 测试站点
+## 第二步：用 kindle 浏览器打开测试网站
 
-访问页面 http://website/config.html
+访问页面 https://linliwan.github.io/kindle_clock/
+
+## 备注
+
+config.js 中 cityNameDB 收录了 60 多个知名城市，如果自己所在的城市未列入，则右上角会显示拼音，可以自行添加自己城市的中文名到 cityNameDB。
 
 ## 效果图
 
